@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configs with sensitive credentials
+config/config.json
+.env
+
+# Analysis outputs and artifacts
+out/
+*.log
+*.bak
+*.scoreboard
+*.vmem
+*.vmsn
+*.vmdk
+
+# Samples & Quarantines (Never commit live malware)
+samples/
+quarantine/
+*.bin
+*.exe
+*.dll
+*.sys
+
+# Virtual environments
+.venv/
+venv/
+ENV/

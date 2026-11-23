@@ -1,0 +1,15 @@
+{
+  "_README": "Configuration for general_MalAna toolkit. Copy to config.json and adjust paths.",
+  "vmrun": "C:\\Program Files\\VMware\\VMware Workstation\\vmrun.exe",
+  "vmcli": "C:\\Program Files\\VMware\\VMware Workstation\\vmcli.exe",
+  "default_vmx": "C:\\Users\\ZenixLapiditoptop\\Documents\\dangerzone\\malware_ana_env\\malware_ana_env.vmx",
+  "default_snapshot": "14-22 9-11-2026",
+  "agent_pipeline_dir": "..\\Agent-pipeline-for-MA",
+  "guest_user": "",
+  "guest_pass": "",
+  "guest_root": "C:\\triage",
+  "output_dir": "out",
+  "allowed_net_types": ["hostonly", "pvn", "none", "custom"],
+  "pull_allow_ext": [".json", ".csv", ".txt", ".log", ".c", ".md", ".xml", ".png", ".tsv", ".yar", ".yara"],
+  "pull_max_mb": 64
+}
